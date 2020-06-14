@@ -43,6 +43,8 @@ This code uses Dr. Anders Buch's Littlewood-Richardson Calculator as a subroutin
 
 #### Disclaimer
 
+
+- I personally encountered some library problem when running `lrcalc`. Please make sure that you can run `lrcalc` successfully before running the programme.
 - This algorithm is very, very inefficient.
 - I have not tested the programme, since I do not have any test cases. So, the output might not be correct. Please notify me if you find an error.
 - This programme is written solely for the computation of Newell-Littilewood Coefficients. It does not reflect the author's programming skills or coding style for a "serious" software project.
