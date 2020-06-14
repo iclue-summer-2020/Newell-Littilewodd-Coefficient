@@ -23,13 +23,11 @@ This code uses Dr. Anders Buch's Littlewood-Richardson Calculator as a subroutin
 #### Usage
 
 1. Create a file in THIS repository and write the input to the file. The input should follow this format:
-   $$
-   \begin{align}
-   &4\ 2\ 1\\
-   &3\ 2\ 2\ 1\\
-   &6\ 2
-   \end{align}
-   $$
+```
+4 2 1
+3 2 2 1
+5 2
+```
 
 2. Run this line of code:
 
