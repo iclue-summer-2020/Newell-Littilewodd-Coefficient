@@ -51,7 +51,7 @@ def NLCoefficient(lam, mu, nu, a, b, c):
     d = (a + b - c) // 2
     e = (a - b + c) // 2
     f = (-a + b + c) // 2
-    if d <= 0 or e <= 0 or f <= 0:
+    if d < 0 or e < 0 or f < 0:
         print("No possible combination since one partition is larger than the sum of others")
         return 0
     sum = 0
