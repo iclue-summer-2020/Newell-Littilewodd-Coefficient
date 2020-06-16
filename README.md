@@ -23,11 +23,11 @@ This code uses Dr. Anders Buch's Littlewood-Richardson Calculator as a subroutin
 #### Usage
 
 1. Create a file in THIS repository and write the input to the file. The input should follow this format:
-```
-4 2 1
-3 2 2 1
-5 2
-```
+	```
+	4 2 1
+   3 2 2 1
+	5 2
+	```
 
 2. Run this line of code:
 
@@ -44,5 +44,5 @@ This code uses Dr. Anders Buch's Littlewood-Richardson Calculator as a subroutin
 
 - I personally encountered some library problem when running `lrcalc`. Please make sure that you can run `lrcalc` successfully before running the programme.
 - This algorithm is very, very inefficient.
-- I have not tested the programme, since I do not have any test cases. So, the output might not be correct. Please notify me if you find an error.
+- I have tested the programme using only a small number of test cases. So, the output might not be correct. Please notify me if you find an error.
 - This programme is written solely for the computation of Newell-Littilewood Coefficients. It does not reflect the author's programming skills or coding style for a "serious" software project.
