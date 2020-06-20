@@ -1,3 +1,4 @@
+#!/usr/bin/env python3.6
 import os
 import sys
 import datetime
@@ -94,10 +95,9 @@ def NLCoefficient(lam, mu, nu, a, b, c):
     return sum
 
 
-(lam, a), (mu, b), (nu, c) = parseInput(sys.argv[1])
-print(datetime.datetime.now())
-print(NLCoefficient(lam, mu, nu, a, b, c))
-print(datetime.datetime.now())
-
-
+if __name__ == '__main__':
+    (lam, a), (mu, b), (nu, c) = parseInput(sys.argv[1])
+    print(datetime.datetime.now())
+    print(NLCoefficient(lam, mu, nu, a, b, c))
+    print(datetime.datetime.now())
 
